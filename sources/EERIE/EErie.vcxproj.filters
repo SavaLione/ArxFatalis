@@ -2,11 +2,11 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{3862bdc0-118e-40fe-8dc3-eedccc7a40a2}</UniqueIdentifier>
+      <UniqueIdentifier>{6ac529ec-cad1-48b8-bf59-6c1ecb6c7e19}</UniqueIdentifier>
       <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{70e27b04-1abe-486a-95d1-e3d564620e48}</UniqueIdentifier>
+      <UniqueIdentifier>{721684a6-8519-4870-b707-72b8be23253b}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl</Extensions>
     </Filter>
   </ItemGroup>
@@ -165,7 +165,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Library Include="..\lib\OtherLibs\Jpeglib.lib" />
     <Library Include="..\lib\OtherLibs\zlib.lib" />
+    <Library Include="..\lib\OtherLibs\Jpeglib.lib" />
   </ItemGroup>
 </Project>

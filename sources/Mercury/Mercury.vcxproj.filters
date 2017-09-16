@@ -2,19 +2,19 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{16a23d2a-d774-487d-b792-613c519789e5}</UniqueIdentifier>
+      <UniqueIdentifier>{23b3cf90-a216-45b0-bff7-2a1dfe3ebc43}</UniqueIdentifier>
       <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{e515238b-2fff-4989-8da8-017944bcf69e}</UniqueIdentifier>
+      <UniqueIdentifier>{8888967e-b4da-4342-9e1e-39f31a017465}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl</Extensions>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Mercury_global.cpp">
+    <ClCompile Include="Mercury_global.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Mercury_Main.cpp">
+    <ClCompile Include="Mercury_Main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

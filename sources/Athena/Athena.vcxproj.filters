@@ -2,27 +2,39 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{32894ce9-05a5-4a96-b806-fa406e94339c}</UniqueIdentifier>
+      <UniqueIdentifier>{541a1b8a-9c39-4b8c-9669-c858ed66dac7}</UniqueIdentifier>
       <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
     </Filter>
     <Filter Include="Source Files\Codec Source Files">
-      <UniqueIdentifier>{9102d89f-f58f-465b-badc-e8e90d639c1f}</UniqueIdentifier>
+      <UniqueIdentifier>{1c2f6ee8-3c11-44c9-9dd6-af3d4300df67}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\Stream Source Files">
-      <UniqueIdentifier>{547fb3ea-66d9-41a0-9bdc-bd4907f3e79d}</UniqueIdentifier>
+      <UniqueIdentifier>{d80cd331-7165-4370-84e7-d274d490b645}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{8ccc8bd5-dc8e-4637-89fd-3257cc627070}</UniqueIdentifier>
+      <UniqueIdentifier>{4388c148-b7df-4fdc-9721-d9aabf3b5e48}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl</Extensions>
     </Filter>
     <Filter Include="Header Files\Codec Header Files">
-      <UniqueIdentifier>{2c81ab43-0d9e-4f8c-b188-f2f1cb09db24}</UniqueIdentifier>
+      <UniqueIdentifier>{28d204a5-438f-4088-9450-c1392389b98e}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files\Stream Header Files">
-      <UniqueIdentifier>{a13216e4-31fb-4d46-b42b-5f1220f899fc}</UniqueIdentifier>
+      <UniqueIdentifier>{7633d3db-94ec-40f2-8d18-c5c1ec02c5eb}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Athena_CoDec_ADPCM.cpp">
+      <Filter>Source Files\Codec Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Athena_Codec_RAW.cpp">
+      <Filter>Source Files\Codec Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Athena_Stream_ASF.cpp">
+      <Filter>Source Files\Stream Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Athena_Stream_WAV.cpp">
+      <Filter>Source Files\Stream Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="Athena.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -59,20 +71,20 @@
     <ClCompile Include="Athena_Track.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Athena_CoDec_ADPCM.cpp">
-      <Filter>Source Files\Codec Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Athena_Codec_RAW.cpp">
-      <Filter>Source Files\Codec Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Athena_Stream_ASF.cpp">
-      <Filter>Source Files\Stream Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Athena_Stream_WAV.cpp">
-      <Filter>Source Files\Stream Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Athena_Codec_ADPCM.h">
+      <Filter>Header Files\Codec Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Athena_Codec_RAW.h">
+      <Filter>Header Files\Codec Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Athena_Stream_ASF.h">
+      <Filter>Header Files\Stream Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Athena_Stream_WAV.h">
+      <Filter>Header Files\Stream Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="Athena_Ambiance.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -103,14 +115,8 @@
     <ClInclude Include="Athena_Stream.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Athena_Codec_ADPCM.h">
-      <Filter>Header Files\Codec Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Athena_Codec_RAW.h">
-      <Filter>Header Files\Codec Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Athena_Stream_WAV.h">
-      <Filter>Header Files\Stream Header Files</Filter>
+    <ClInclude Include="Athena_Track.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Include\Athena.h">
       <Filter>Header Files</Filter>
@@ -118,13 +124,5 @@
     <ClInclude Include="..\Include\Athena_Types.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <CustomBuildStep Include="Athena_Track.h">
-      <Filter>Header Files</Filter>
-    </CustomBuildStep>
-    <CustomBuildStep Include="Athena_Stream_ASF.h">
-      <Filter>Header Files\Stream Header Files</Filter>
-    </CustomBuildStep>
   </ItemGroup>
 </Project>

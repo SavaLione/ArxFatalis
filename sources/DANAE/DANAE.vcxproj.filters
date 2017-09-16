@@ -2,28 +2,28 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{a216f376-b48f-44f5-8095-fe0e23e00598}</UniqueIdentifier>
+      <UniqueIdentifier>{171bab7b-6e4b-496e-ad35-d8851672bfc8}</UniqueIdentifier>
       <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{da86366a-c515-48f1-8233-34750a4fdea0}</UniqueIdentifier>
+      <UniqueIdentifier>{8e49f179-3bbd-4f84-8573-4cd019cb06b1}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl</Extensions>
     </Filter>
     <Filter Include="Resource Files">
-      <UniqueIdentifier>{1b891702-7baf-438b-b5a0-2098aad2984d}</UniqueIdentifier>
+      <UniqueIdentifier>{533132f5-0954-46d7-b3f7-c4ef311d992d}</UniqueIdentifier>
       <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
     </Filter>
     <Filter Include="Spells">
-      <UniqueIdentifier>{2f0eb3fa-aed0-4108-9ab0-32ad13049f8c}</UniqueIdentifier>
+      <UniqueIdentifier>{0a9ba82f-f6a1-4a6f-b99a-03f0f0cd227a}</UniqueIdentifier>
     </Filter>
     <Filter Include="Particles">
-      <UniqueIdentifier>{d03520f2-a03f-4879-a397-c6583db66133}</UniqueIdentifier>
+      <UniqueIdentifier>{f40fa35d-4541-4098-9447-a1f8dac552b7}</UniqueIdentifier>
     </Filter>
     <Filter Include="Localisation">
-      <UniqueIdentifier>{6a5cf103-91cf-498d-b7a8-2b10bb0f2b60}</UniqueIdentifier>
+      <UniqueIdentifier>{c4d16030-85e2-4c57-afda-56ef84353302}</UniqueIdentifier>
     </Filter>
     <Filter Include="Localisation\Config popup">
-      <UniqueIdentifier>{6836a47f-9d59-4d7f-98ed-a665e4d6a037}</UniqueIdentifier>
+      <UniqueIdentifier>{0af8366d-a090-4d6e-b303-c89ae97e845b}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -213,14 +213,14 @@
     <ClCompile Include="ARX_CParticleSystem.cpp">
       <Filter>Particles</Filter>
     </ClCompile>
+    <ClCompile Include="Arx_Config.cpp">
+      <Filter>Localisation\Config popup</Filter>
+    </ClCompile>
     <ClCompile Include="ARX_Loc.cpp">
       <Filter>Localisation</Filter>
     </ClCompile>
     <ClCompile Include="ARX_LocHash.cpp">
       <Filter>Localisation</Filter>
-    </ClCompile>
-    <ClCompile Include="Arx_Config.cpp">
-      <Filter>Localisation\Config popup</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -409,61 +409,63 @@
     <ClInclude Include="..\Include\ARX_CParticleSystem.h">
       <Filter>Particles</Filter>
     </ClInclude>
+    <ClInclude Include="Arx_Config.h">
+      <Filter>Localisation\Config popup</Filter>
+    </ClInclude>
     <ClInclude Include="ARX_Loc.h">
       <Filter>Localisation</Filter>
     </ClInclude>
     <ClInclude Include="ARX_LocHash.h">
       <Filter>Localisation</Filter>
     </ClInclude>
-    <ClInclude Include="Arx_Config.h">
-      <Filter>Localisation\Config popup</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="arkane_logo.bmp">
+    <Image Include="arkane_logo.bmp">
       <Filter>Resource Files</Filter>
-    </None>
-    <None Include="ARX.bmp">
+    </Image>
+    <Image Include="ARX.bmp">
       <Filter>Resource Files</Filter>
-    </None>
-    <None Include="Arx_icon_64X64.ico">
+    </Image>
+    <Image Include="Arx_icon_64X64.ico">
       <Filter>Resource Files</Filter>
-    </None>
-    <None Include="bitmap1.bmp">
+    </Image>
+    <Image Include="bitmap1.bmp">
       <Filter>Resource Files</Filter>
-    </None>
-    <None Include="bitmap2.bmp">
+    </Image>
+    <Image Include="bitmap2.bmp">
       <Filter>Resource Files</Filter>
-    </None>
-    <None Include="cursor1.cur">
+    </Image>
+    <Image Include="Danae.bmp">
       <Filter>Resource Files</Filter>
-    </None>
-    <None Include="Danae.bmp">
+    </Image>
+    <Image Include="Danae.ico">
       <Filter>Resource Files</Filter>
-    </None>
-    <None Include="Danae.ico">
+    </Image>
+    <Image Include="Danae_TB.bmp">
       <Filter>Resource Files</Filter>
-    </None>
-    <None Include="Danae_TB.bmp">
+    </Image>
+    <Image Include="directx.ico">
       <Filter>Resource Files</Filter>
-    </None>
-    <None Include="directx.ico">
+    </Image>
+    <Image Include="icon1.ico">
       <Filter>Resource Files</Filter>
-    </None>
-    <None Include="icon1.ico">
+    </Image>
+    <Image Include="icon2.ico">
       <Filter>Resource Files</Filter>
-    </None>
-    <None Include="icon2.ico">
+    </Image>
+    <Image Include="pass_logo.bmp">
       <Filter>Resource Files</Filter>
-    </None>
-    <None Include="pass_logo.bmp">
+    </Image>
+    <Image Include="Presentation.bmp">
       <Filter>Resource Files</Filter>
-    </None>
-    <None Include="Presentation.bmp">
+    </Image>
+    <Image Include="toolbar1.bmp">
       <Filter>Resource Files</Filter>
-    </None>
-    <None Include="toolbar1.bmp">
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="cursor1.cur">
       <Filter>Resource Files</Filter>
-    </None>
+    </CustomBuild>
   </ItemGroup>
 </Project>
